@@ -24,3 +24,28 @@
     color: black;
 }
 
+.form-label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+@media (max-width: 360px) { 
+
+    .container-fluid{
+      text-align: center;
+    }
+      
+    .navbar-brand{
+      font-size: 14px;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+    }
+  
+    .nav-item{
+      margin-top: 30px;
+      text-align: center;
+      margin-left: 50px;
+    }
+  }
